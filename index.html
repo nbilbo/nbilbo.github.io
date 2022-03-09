@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="images/laptop-computer.ico">
+    <title>Felipe Morais</title>
+</head>
+
+<body>
+    <header class="header">
+            <div class="container">
+                <picture>
+                    <source media="(max-width: 480px)"
+                            srcset="./images/banner_mobile.png"
+                            type="image/png"
+                            class="banner">
+                    <img src="./images/banner3.png" alt="" class="banner">
+                </picture>
+                
+            </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container"> 
+            <ul class="list-nav">
+                <li class="item-nav">
+                    <a href="./index.html" class="link-nav">Home</a>
+                </li>
+                <li class="item-nav">
+                    <a href="./credits.html" class="link-nav">Créditos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main">
+        <!--desktop-->
+        <section class="section">
+            <h2 class="sub-title">Desktop</h2>
+            <p class="breaf">Com o auxilio de <a href="https://ttkbootstrap.readthedocs.io/en/latest/#sample-themes" target="_blank" class="external">ferramentas &#128269</a> é possivel alcançar resultados <strong>elegantes</strong> que agradem o usuário. </p>
+            <picture>
+                <source media="(max-width:800px)" 
+                        srcset="./images/desktop_sample_mobile.png" 
+                        type="image/png" 
+                        class="image-breaf">
+
+                <img src="./images/desktop_sample.png"
+                     alt="desktop sample" 
+                     class="image-breaf">
+            </picture>
+            <!--picture>
+                <source media="(max-width:800px)" 
+                        srcset="./images/desktop_sample_light_mobile.png" 
+                        type="image/png" 
+                        class="image-breaf">
+
+                <img src="./images/desktop_sample_light.png"
+                     alt="desktop sample" 
+                     class="image-breaf">
+            </picture-->
+        </section>
+
+        <!-- web -->
+        <section class="section">
+            <h2 class="sub-title">Web</h2>
+            <p class="breaf">Grandes projetos podem partir de <a href="https://cointacao.herokuapp.com/"
+            target="_blank" class="external">pequenas &#128269</a> ideias.</p>
+        </section>
+
+        <!--diagramas-->
+        <section class="section">
+            <h2 class="sub-title">Diagramas</h2>
+            <p class="breaf">Diagramas para planejar um <strong>bom</strong> desenvolvimento. </p>
+            <p class="breaf"></p>
+            <picture>
+                <source media="(max-width:800px)" 
+                        srcset="./images/parte_logica_mobile.png" 
+                        type="image/png" 
+                        class="image-breaf">
+
+                <img src="./images/logico_fisico.png"
+                     alt="desktop sample" 
+                     class="image-breaf">
+            </picture>
+        </section>
+
+        <!-- lista -->
+        <section class="section">
+            <h2 class="sub-title">Conhecimentos</h2>
+            <ul class="knowledge">
+                <li class="item-knowledge checked">Python (básico)</li>
+                <li class="item-knowledge checked">Django (básico)</li>
+                <li class="item-knowledge checked">Html / Css (básico)</li>
+                <li class="item-knowledge checked">Git / Github (básico)</li>
+                <li class="item-knowledge checked">Banco de dados relacional (básico)</li>
+                <li class="item-knowledge checked">UML (básico)</li>
+                <li class="item-knowledge unchecked">AWS</li>
+            </ul>
+        </section>
+    </main>
+
+    <!--footer -->
+    <footer class="footer">
+        <div class="container">
+            <ul class="list-footer">
+                <li class="item-footer">
+                    <a href="https://www.linkedin.com/in/felipe-morais-01b229151/" 
+                       target="blank_" 
+                       class="link-footer">     
+                        <img src="./images/linkedin.png" alt="linkedin icon" class="icon-footer">
+                        <span class="desc-icon">Linkedin</span>
+                    </a>
+                </li>
+
+
+                <li class="item-footer">
+                    <a href="https://github.com/nbilbo" 
+                       target="_blank"
+                       class="link-footer">     
+                        <img src="./images/github.png" alt="github icon" class="icon-footer">
+                        <span class="desc-icon">Github</span>
+                    </a>
+                </li>
+
+                <li class="item-footer">
+                    <a href="./credits.html"
+                       class="link-footer">     
+                        <img src="./images/database.png" alt="database icon" class="icon-footer">
+                        <span class="desc-icon">Icones utilizados</span>
+                    </a>
+                </li>
+
+            </ul>
+            <p class="copy">&copy;Alguns direitos reservados - 2022</p>
+        </div>
+    </footer>
+</body>
+</html>
