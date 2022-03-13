@@ -228,6 +228,10 @@ body {
 }
 
 @media screen and (max-width: 810px) {
+    .small-image {
+        width: 50%;
+    }
+
     .list-footer {
         flex-direction: column;
     }
