@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: None;
+    list-style-type: None;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* nav */
+.nav {
+  background-color: rgba(0, 0, 0, 0.01);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav a {
+  padding: 0 12px;
+}
+
+/* header */
+.header {
+  text-align: center;
+  margin-bottom: 200px;
+}
+.header h1 {
+  font-family: 'Poiret One', cursive;
+  text-transform: capitalize;
+  font-weight: normal;
+  font-size: 3em;
+  margin: 0;
+}
+.header p {
+  font-weight: bold;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 1.33;
+  margin: 25px 0;
+}
+.header img {
+  width: 100%;
+}
+
+/*main*/
+.projects {
+  background-color: rgba(0, 0, 0, 0.01);
+  padding: 64px 16px;
+}
+
+.projects header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.projects  header  img {
+  display: block;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.projects header h2 {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.projects header p {
+  line-height: 1.65;
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+.projects header a {
+  font-size: 1.2em;
+  line-height: 1.65;
+  color: #002e99;
+  font-weight: 400;
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.project-item img {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: .25rem;
+}
+
+.project-item p {
+  font-size: 1.4em;
+  font-weight: 400;
+  line-height: 1.25em;
+  opacity: .75;
+}
+
+
+
+.volunteer {
+  background-color: rgb(114, 57, 179);
+  background-color: #945942;
+  padding: 48px 24px;
+  margin-bottom: 100px;
+}
+
+.volunteer img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.volunteer-description h2 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 400;
+  text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;
+  margin-bottom: 16px;
+}
+
+.volunteer-description p {
+  color: white;
+  font-size: 1.4em;
+  line-height: 1.65;
+  font-weight: 400;
+  text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;
+  margin-bottom: 16px;
+}
+
+.volunteer-description a {
+  font-size: 1.2em;
+  background-color: white;
+  color: #7239b3;
+  color: #251F1B;
+  padding: 7px;
+  border-radius: 3px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.skills {
+  padding: 64px 0;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.skills h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.skills h3 {
+  font-size: 2em;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+
+.skills p {
+  text-align: left;
+  line-height: 1.65;
+  font-size: 1.5em;
+
+}
+
+.skills-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.knowledge {
+  padding: 20px;
+  margin-bottom: 200px;
+}
+
+.knowledge h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.knowledge-item {
+  font-size: 1.5em;
+  list-style-type: disc;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.footer {
+  padding: 20px;
+}
+
+.copy {
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+  }
+
+  .projects-list {
+    grid-template-columns: 1fr;
+    align-content: center;
+  }
+
+  .project-item {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .project-item img {
+    width: 50%;
+  }
+
+  .skills-items {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-item {
+    margin-bottom: 20px;
+  }
+
+  .skill-item p {
+    text-align: center;
+  }
+
+} 
