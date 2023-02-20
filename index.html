@@ -1,122 +1,144 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
     <title>Felipe Morais</title>
   </head>
 
-
   <body>
-    <nav class="nav">
-	<ul>
-	  <li>
-	    <a href="#">
-	      felipe morais
-	    </a>
-	  </li>
-	</ul>
-    </nav>
+    <!-- menu -->
+    <div class="container-menu">
+      <nav class="menu">
+        <a href="#" class="brand">felipe morais</a>
+      </nav>
+    </div>
 
-    <header class="header">
-      <div class="container">
-	<h1>felipe morais</h1>
-	<p></p>
-	<img src="assets/imgs/welcome.png">
-      </div>
-    </header>
+    <!-- header -->
+    <div class="container-header">
+      <header class="header">
+        <p class="header-paragraph">
+          Hello, my name is Felipe. Thank you for coming and taking some of your time to get to know me better. Have a great day. 
+        </p>
+      </header>
+    </div>
+    
+    <!-- main -->
+    <div class="container-main">
+      <main class="main">
+        <!-- experiences -->
+        <div class="container-experiences">
+          <section class="experiences">
+              <h2 class="experiences-title">experiences</h2>
+                <div class="experiences-list">
+                <div class="experience-item">
+                  <!--<img src="https://via.placeholder.com/640x360" alt="experience image" class="experience-image"/>-->
+                  <img src="./desktop_sample.png" alt="experience image" class="experience-image"/>
+                  <p class="experience-paragraph">
+                  Multiplatform <a href="https://myawesomelibrary.fly.dev/" class="anchor" target="blank_">application</a> development.
+                  </p>
+                </div>
 
-    <main>
+                <div class="experience-item">
+                  <!--<img src="https://via.placeholder.com/640x360" alt="experience image" class="experience-image"/>-->
+                  <img src="./website_sample.png" alt="experience image" class="experience-image"/>
+                  <p class="experience-paragraph">
+                  Development <a href="https://billowing-sound-3554.fly.dev/" class="anchor" target="blank_">API's</a> and websites with static or dynamic content.
+                  </p>
+                </div>
 
-      <!-- last projects -->
-	<section class="projects">
-		<div class="container">	
-		<header>
-			<img src="assets/imgs/icons/project_128.png">
-			<h2>Ultimos projetos</h2>
-			<p>Projetos criados com o intuito de praticar e aprender novos conhecimentos.</p>
-			<a href="https://github.com/nbilbo" target="_blank">Conferir todos &#9875;</a>
-		</header>
-		<div class="projects-list">
-			<div class="project-item">
-				<a href="https://github.com/nbilbo/climatempo" target="_blank">
-					<img src="assets/imgs/project_1.png" alt="project image">
-					<p>Confererir temperaturas climaticas, pela linha de comando</p>
-				</a>
-			</div>
+                <div class="experience-item">
+                  <!--<img src="https://via.placeholder.com/640x360" alt="experience image" class="experience-image"/>-->
+                  <img src="./diagram_sample.png" alt="experience image" class="experience-image"/>
+                  <p class="experience-paragraph">
+                  Reading and writing <span class="important">UML diagrams</a>.
+                  </p>
+                </div>
 
-			<div class="project-item">
-				<a href="https://github.com/nbilbo/tkinter_excel" target="_blank">
-					<img src="assets/imgs/project_2.png" alt="project image">
-					<p>Visualizar e editar planilhas excel com uma interface feita em python.</p>
-				</a>
-			</div>
+                <div class="experience-item">
+                  <!--<img src="https://via.placeholder.com/640x360" alt="experience image" class="experience-image"/>-->
+                  <img src="./database_sample.png" alt="experience image" class="experience-image"/>
+                  <p class="experience-paragraph">
+                    Relational database, respecting <span class="important">all requirements</span> and their relationships.
+                  </p>
+                </div>
+              </div>
+          </section>
+        </div>
 
-			<div class="project-item">
-				<a href="https://cointacao.herokuapp.com/" target="_blank">
-					<img src="assets/imgs/project_3.png" alt="project image">
-					<p>Um site com o proposito de mostrar a cotação de criptomoedas</p>
-				</a>
-			</div>
-		</div>
-	</section>
-
-      <!-- volunteer  -->
-      <section class="volunteer">
-	<div class="container">
-	  <div class="volunteer-description">
-	    <h2>Trabalho <strong style="color: white">voluntário</strong></h2>
-	    <p>Atualmente realizo trabalho voluntário em um projeto social,
-			onde ofereço suporte em informática, como: configurações de
-			impressoras, computadores, auxiliando os demais funcionários e
-			afins.</p>
-	    <a href="https://www.prossan.org.br/" target="_blank">Confira aqui</a>
-	  </div>
-	  <!--img src="https://elementary.io/images/screenshots/appcenter.png"-->
-	  <img src="assets/imgs/prossan.png">
-	</div>
+    <!-- activities -->
+    <div class="container-activities">
+      <section class="activities">
+        <h2 class="activities-title">activities</h2>
+        <div class="activities-list">
+          <div class="activitie-item">
+            <img src="prossan.jpg" alt="activitie imge" class="activitie-image"/>
+            <p class="activitie-paragraph">
+            In 2022, I started my activities as a <a href="https://www.prossan.org.br/" target="blank_" class="anchor">volunteer</a> where I was responsible for providing support in the IT area. Configure printers, computers and routers.
+            </p>
+          </div>
+        </div>
       </section>
-      
-      <!-- skills -->
-      <section class="skills">
-		<div class="container">
-			<h2>Habilidades</h2>
-			<div class="skills-items">
-				<div class="skill-item">
-					<h3 class="">banco de dados relacional</h3>
-					<p>Criação do modelo lógico (diagramas) e sua converção  para o modelo fisico (scripts) <strong>respeitando os relacionamentos</strong> definidos pelas regras de négocio.</p>
-				</div>
+    </div>
 
-				<div class="skill-item">
-					<h3 class="">programação</h3>
-					<p>Aplicando o paradigma de <strong>orientação a objeto</strong> na construção de aplicações desktop e web. Com a preocupação de escrever um cógido que se mantenha compreensivel, organizado com o auxilio de ferramentas de versionamento. </p>
-				</div>
-			</div>
-		</div>
-	</section>
+        <!-- skills -->
+        <div class="container-skills">
+          <section class="skills">
+            <h2 class="skills-title">skills</h2>
+            <div class="skills-list">
+              <div class="skill-item">
+                <img src="./python.png" alt="skill image" class="skill-image"/>
+              </div>
 
-	<!-- knowledge -->
-	<section class="knowledge">
-		<div class="container">
-			<h2>Conhecimentos</h2>
-			<ul class="knowledge-list">
-				<li class="knowledge-item">Python</li>
-				<li class="knowledge-item">C#</li>
-				<li class="knowledge-item">Java</li>
-				<li class="knowledge-item">SQL</li>
-				<li class="knowledge-item">Git</li>
-			</ul>
-		</div>
-	</section>
-    </main>
+              <div class="skill-item">
+                <img src="./django.png" alt="skill image" class="skill-image"/>
+              </div>
 
-	<footer class="footer">
-		<div class="container">
-			<p class="copy">&copy;Felipe Morais 2022 - Alguns direiros reservados.</p>
-		</div>
-	</footer>
+              <div class="skill-item">
+                <img src="./git.png" alt="skill image" class="skill-image"/>
+              </div>
+
+              <div class="skill-item">
+                <img src="./html.png" alt="skill image" class="skill-image"/>
+              </div>
+
+              <div class="skill-item">
+                <img src="./css.png" alt="skill image" class="skill-image"/>
+              </div>
+
+              <div class="skill-item">
+                <img src="./js.png" alt="skill image" class="skill-image"/>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+
+    <!-- footer -->
+    <div class="container-footer">
+      <footer class="footer">
+        <!--
+        <div class="footer-list">
+          <h3 class="footer-title">Social</h3>
+          <div class="footer-item">
+            <a href="#" class="social-anchor">github</a>
+          </div>
+        </div>
+        -->
+
+        <div class="footer-list">
+          <h3 class="footer-title">Contact</h3>
+          <div class="footer-item">
+            <p href="#" class="contact-anchor">felipeqwerty688@hotmail.com</p>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
-</html>
 
+</html>
