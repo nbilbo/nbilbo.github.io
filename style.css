@@ -1,389 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400;700&display=swap');
-
-* {
+/* Estilo global para o site */
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-body {
-  background-color: #737373;
-  background-color: #262626;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-.container-menu {
-  background-color: #F25244;
-}
-
-.menu {
-  display: block;
+/* Estilo para o cabeçalho do site */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
   text-align: center;
-  padding: 20px 0;
-  border-bottom: 2px solid #F25E5E;
 }
 
-.brand {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  text-transform: capitalize;
-  font-size: 1.0em;
-  color: #D9D9D9;
-}
-
-.container-header {
-  background-color: #262626;
-}
-
-.header {
-  width: 90%;
-  padding: 20px 0;
-  margin: 0 auto;
-}
-
-.main-title {
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Sofia Sans', sans-serif;
-  font-size: 1.2em;
-  font-weight: 400;
-  text-align: center;
+/* Estilo para o título do cabeçalho */
+header h1 {
   margin: 0;
-  color: #D9D9D9;
+  font-size: 36px;
 }
 
-.header-paragraph {
-  font-family: 'Roboto Slab', serif;
-  font-size: 1em;
-  font-weight: 400;
-  text-align: center;
-  color: #D9D9D9;
-  color: white;
-  line-height: 25px;
+/* Estilo para a navegação */
+nav {
+  background-color: #666;
+  color: #fff;
+  padding: 10px;
 }
 
-.container-experiences {
-  background-color: #262626;
-  box-shadow: 0px 2px #00000026;
+/* Estilo para os links da navegação */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
 }
 
-.experiences {
-  margin: 0 auto;
-  margin-top: 100px;
-  padding: 20px 0;
-}
-
-.experiences-title {
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Sofia Sans', sans-serif;
-  font-size: 1.2em;
-  color: #D9D9D9;
-  text-align: center;
-  text-transform: capitalize;
-  margin-bottom: 20px;
-}
-
-.experiences-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 20px;
-}
-
-.experience-item {
-  border: 3px solid #F25244;
-  border: 3px solid #D9D9D9;
-  box-shadow: 0px 2px #00000026;
-}
-
-.experience-image {
-  display: block;
-  width: 100%;
-  background-color: #737373;
-}
-
-.experience-title {
-  text-align: center;
-}
-
-.experience-paragraph {
-  background-color: #262626;
-  color: #D9D9D9;
-  color: white;
-  text-align: center;
-  line-height: 25px;
-  padding: 20px;
-  font-family: 'Roboto Slab', serif;
-  font-weight: 400;
-  font-size: 1em;
-}
-
-
-.container-activities {
-  background-color: #262626;
-  box-shadow: 0px 2px #00000026;
-}
-
-.activities {
-  margin-top: 100px;
-  padding: 20px 0px;
-}
-
-
-.activities-title {
-  font-family: 'Sofia Sans', sans-serif;
-  font-size: 1.2em;
-  color: #D9D9D9;
-  text-align: center;
-  text-transform: capitalize;
-  margin-bottom: 20px;
-}
-
-.activitie-image {
-  width: 100%;
-}
-
-.activitie-paragraph {
-  color: white;
-  text-align: center;
-  line-height: 25px;
-  padding: 20px;
-  font-family: 'Roboto Slab', serif;
-}
-
-.container-skills {
-  background-color: #D9D9D9;
-  box-shadow: 0px 2px #00000026;
-}
-
-.skills {
-  padding: 20px 0;
-  margin-top: 100px;
-}
-
-.skills-title {
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Sofia Sans', sans-serif;
-  font-size: 1.2em;
-  color: #D9D9D9;
-  color: #262626;
-  text-transform: capitalize;
-  text-align: center;
-}
-
-.skills-list {
- display: grid;
- grid-template-columns: 1fr;
- margin-top: 20px;
-}
-
-.skill-item {
-  padding: 20px;
-}
-
-.skill-image {
-  width: 150px;
-  height: 150px;
-  display: block;
-  margin: 0 auto;
-}
-
-.container-footer {
-  background-color: #F25244;
-}
-
-.footer {
-  padding: 20px;
-}
-
-.footer-list {
-  margin-top: 20px;
-}
-.footer-list:first-child {
-  margin-top: 0px;
-}
-
-.footer-title {
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Sofia Sans', sans-serif;
-  font-weight: bold;
-  font-size: 1.2em; 
-  color: #D9D9D9;
-  color: white;
-}
-
-.footer-item {
-  margin-top: 20px;
-}
-
-.social-anchor {
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
-}
-.social-anchor:hover {
+/* Estilo para os links da navegação quando o mouse passa por cima */
+nav a:hover {
   text-decoration: underline;
 }
 
-.contact-anchor {
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
+/* Estilo para as seções do site */
+section {
+  padding: 20px;
 }
 
-.anchor {
-  padding: 5px;
-  margin: 5px;
-  color: white;
-  background-color: #F25E5E;
-  font-weight: 700;
+/* Estilo para a seção de apresentação */
+section#apresentacao {
+  background-color: #f7f7f7;
+}
+
+/* Estilo para a seção de experiências */
+section#experiencias {
+  background-color: #ebebeb;
+}
+
+/* Estilo para a seção de projetos */
+section#projetos {
+  background-color: #d7d7d7;
+}
+
+/* Estilo para a seção de habilidades */
+section#habilidades {
+  background-color: #c3c3c3;
+}
+
+/* Estilo para o título da seção */
+section h2 {
+  font-size: 30px;
+  margin-top: 0;
+}
+
+/* Estilo para a lista de habilidades */
+section ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Estilo para cada item da lista de habilidades */
+section li {
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  border: 1px solid #ccc;
   border-radius: 10px;
 }
-.anchor:hover {
-  background-color: #F25244;
+
+/* Estilo para o fundo do item da lista de habilidades quando o mouse passa por cima */
+section li:hover {
+  background-color: #ccc;
 }
 
-.important {
-  border-bottom: 2px solid white;
+/* Estilo para o título da seção */
+section h2 {
+  font-size: 30px;
+  margin-top: 0;
+  text-align: center; /* adiciona centralização */
 }
 
-@media only screen and (min-width: 401px) {
-  .skills-list {
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-  }
-
-  .skill-image {
-    width: 150px;
-    height: 150px;
-  }
+/* Estilo para a seção de contato */
+section#contato {
+  background-color: #fff;
+  padding: 50px 0;
 }
 
-@media only screen and (min-width: 601px) {
-  .skills-list {
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-  }
-
-  .skill-image {
-    width: 150px;
-    height: 150px;
-  }
+section#contato h2 {
+  text-align: center;
 }
 
-@media only screen and (min-width: 801px) {
-  .menu{
-    width: 800px;
-    margin: 0 auto;
-  }
+section#contato p {
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
-  .brand {
-    font-size: 2em;
-  }
+section#contato ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
-  .header {
-    width: 800px;
-    margin: 0 auto;
-  }
-
-  .main-title {
-    font-size: 2em;
-  }
-
-  .header-paragraph {
-    font-size: 2em;
-    line-height: 35px;
-  }
-
-  .experiences {
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 100px;
-  }
-
-  .experiences-list {
-    grid-template-columns: repeat(auto-fit, minmax(380px, auto));
-  }
-
-  .experiences-title {
-    font-size: 2em;
-  }
-
-  .experience-paragraph {
-    font-size: 1.5em;
-    font-weight: bold;
-    line-height: 30px;
-  }
-
-  .activities {
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 100px;
-  }
-
-  .activities-title {
-    font-size: 2em;
-  }
-
-  .activitie-item {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    align-items: center;
-  }
-
-  .activitie-paragraph {
-    font-size: 1.5em;
-    font-weight: bold;
-    line-height: 35px;
-    text-align: center;
-  }
-
-  .skills {
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 100px;
-  }
-
-  .skills-title {
-    font-size: 2em;
-  }
-
-  .skills-list {
-    grid-template-columns: repeat(auto-fit, minmax(263px, auto));
-  }
-
-
-  .skill-image {
-    width: 150px;
-    height: 150px;
-  }
-
-  .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    width: 800px;
-    margin: 0 auto;
-    padding: 40px 0;
-  }
-
-  .footer-list {
-    margin: 0;
-  }
-
-  .footer-title {
-    font-size: 2em;
-  }
-
-  .social-anchor {
-    font-size: 1.5em;
-  }
-
-  .contact-anchor {
-    font-size: 1.5em;
-  }
+section#contato li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.4;
 }
 
